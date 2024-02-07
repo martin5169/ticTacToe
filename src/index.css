@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Bungee Spice';
-  src: url('/public/BungeeSpice-Regular.ttf');
+  src: url('/BungeeSpice-Regular.ttf');
 }
 :root {
   font-family: 'Bungee Spice';
@@ -23,6 +23,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
   
@@ -40,9 +41,19 @@ body {
   text-align: center;
 }
 
+.point{
+  background-color: red;
+}
+
+.pointSelector{
+  font-size: 11px;
+}
+
+
 .board h1 {
   color: #eee;
   margin-bottom: 16px;
+  text-shadow: #eee 0 5px 6px;
 }
 
 .board button {
@@ -58,6 +69,7 @@ body {
   cursor: pointer;
 }
 
+
 .board button:hover {
   background: #c1b8aa;
  
@@ -69,8 +81,7 @@ body {
   gap: 10px;
 }
 .logo{
-display: flex;
- margin-bottom: 50px;
+margin-bottom: 60px;
 }
 .turn {
   display: flex;
@@ -109,8 +120,8 @@ display: flex;
 
 .winner .text {
   background: #111;
-  height: 380px;
-  width: 350px;
+  height: 420px;
+  width: 500px;
   border: 2px solid #eee;
   border-radius: 10px;
   display: flex;
@@ -118,6 +129,7 @@ display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
+  font-size: 25px;
 }
 
 .winner .win {
