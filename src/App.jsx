@@ -183,7 +183,7 @@ function App() {
       {pointSelection === 0 && (
         <section className="winner">
           <div className="text">
-            <h3>Seleccioná la cantidad de puntos a jugar</h3>
+            <h3>Puntos a jugar</h3>
             <footer>
               <button
                 onClick={(event) => {
