@@ -154,8 +154,8 @@ margin-bottom: 60px;
 @media screen and (max-width: 400px) {
   .winner .text{
     background: #111;
-    height: 55%;
-    width: 60%;
+    height: 75%;
+    width: 70%;
     border: 2px solid #eee;
     border-radius: 10px;
     display: flex;
