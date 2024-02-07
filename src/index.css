@@ -61,8 +61,7 @@ body {
   margin: 25px;
   border: 2px solid #eee;
   background-color: #eee;
-  font-size: 20px;
-  width: fit-content;
+  font-size: 25px;
   border-radius: 10px;
   transition: 0.2s;
   font-family: 'Bungee Spice', sans-serif;
@@ -164,6 +163,18 @@ margin-bottom: 60px;
     align-items: center;
     gap: 40px;
     font-size: 25px;
+  }
+  .board button {
+    padding: 10px 20px;
+    margin: 25px;
+    border: 2px solid #eee;
+    background-color: #eee;
+    font-size: 25px;
+    width: fit-content;
+    border-radius: 10px;
+    transition: 0.2s;
+    font-family: 'Bungee Spice', sans-serif;
+    cursor: pointer;
   }
 
 }
